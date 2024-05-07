@@ -1,0 +1,122 @@
+xrun: 23.09-s001: (c) Copyright 1995-2023 Cadence Design Systems, Inc.
+TOOL:	xrun	23.09-s001: Started on May 07, 2024 at 11:43:32 EDT
+xrun
+	-Q
+	-unbuffered
+	-timescale 1ns/1ns
+	-sysv
+	-access +rw
+	design.sv
+	testbench.sv
+      ram_transaction_ins.randomize();
+                                  |
+xmvlog: *W,FUNTSK (ram_generator.sv,35|34): function called as a task without void'().
+	Top level design units:
+		$unit_0x67f934e9
+		tb_ram
+Loading snapshot worklib.tb_ram:sv .................... Done
+SVSEED default: 1
+xcelium> source /xcelium23.09/tools/xcelium/files/xmsimrc
+xcelium> run
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result 63538, is equivalent actual result  63538.
+The expected result:    x is NOT equal the actual result:63538
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result  4590, is equivalent actual result   4590.
+The expected result:    x is NOT equal the actual result: 4590
+The expected result 61115, is equivalent actual result  61115.
+The expected result:    x is NOT equal the actual result:61115
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result 55496, is equivalent actual result  55496.
+The expected result:    x is NOT equal the actual result:55496
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result 49600, is equivalent actual result  49600.
+The expected result:    x is NOT equal the actual result:49600
+The expected result     x, is equivalent actual result      x.
+The expected result 61793, is equivalent actual result  61793.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result 19450, is equivalent actual result  19450.
+The expected result  4590, is equivalent actual result   4590.
+The expected result:    x is NOT equal the actual result: 4590
+The expected result:    x is NOT equal the actual result: 4590
+The expected result:    x is NOT equal the actual result: 4590
+The expected result  5745, is equivalent actual result   5745.
+The expected result     x, is equivalent actual result      x.
+The expected result 47989, is equivalent actual result  47989.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result     x, is equivalent actual result      x.
+The expected result 49600, is equivalent actual result  49600.
+The expected result 33103, is equivalent actual result  33103.
+The expected result:    x is NOT equal the actual result:33103
+The expected result  1213, is equivalent actual result   1213.
+The expected result 34745, is equivalent actual result  34745.
+The expected result 64717, is equivalent actual result  64717.
+The expected result 49600, is equivalent actual result  49600.
+The expected result  4590, is equivalent actual result   4590.
+The expected result:    x is NOT equal the actual result: 4590
+The expected result 33103, is equivalent actual result  33103.
+The expected result:    x is NOT equal the actual result:33103
+The expected result:    x is NOT equal the actual result:33103
+The expected result:    x is NOT equal the actual result:33103
+The expected result 65452, is equivalent actual result  65452.
+The expected result 22521, is equivalent actual result  22521.
+The expected result 65336, is equivalent actual result  65336.
+The expected result:    x is NOT equal the actual result:65336
+The expected result:    x is NOT equal the actual result:65336
+The expected result:    x is NOT equal the actual result:65336
+The expected result:    x is NOT equal the actual result:65336
+The expected result 64039, is equivalent actual result  64039.
+The expected result 54327, is equivalent actual result  54327.
+The expected result 38485, is equivalent actual result  38485.
+The expected result:    x is NOT equal the actual result:38485
+The expected result:    x is NOT equal the actual result:38485
+The expected result:    x is NOT equal the actual result:38485
+The expected result:    x is NOT equal the actual result:38485
+The expected result  4745, is equivalent actual result   4745.
+The expected result 13299, is equivalent actual result  13299.
+The expected result:    x is NOT equal the actual result:13299
+The expected result:    x is NOT equal the actual result:13299
+The expected result 11594, is equivalent actual result  11594.
+The expected result  1213, is equivalent actual result   1213.
+The expected result 65452, is equivalent actual result  65452.
+The expected result:    x is NOT equal the actual result:65452
+The expected result 57963, is equivalent actual result  57963.
+The expected result 47313, is equivalent actual result  47313.
+The expected result 38459, is equivalent actual result  38459.
+The expected result:    x is NOT equal the actual result:38459
+The expected result  1234, is equivalent actual result   1234.
+The expected result 13299, is equivalent actual result  13299.
+The expected result:    x is NOT equal the actual result:13299
+The expected result:    x is NOT equal the actual result:13299
+The expected result 11594, is equivalent actual result  11594.
+The expected result:    x is NOT equal the actual result:11594
+Simulation complete via $finish(1) at time 1 US + 0
+./testbench.sv:40   initial begin #1000; $finish; end
+xcelium> exit
+TOOL:	xrun	23.09-s001: Exiting on May 07, 2024 at 11:43:33 EDT  (total: 00:00:01)
